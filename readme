@@ -1,0 +1,19 @@
+Program Author:
+		Mujtaba Mujtaba
+		101167348
+
+Purpose: The purpose of this program is to represent a hotel with a reservation manager, now the hotel has a bunch of rooms with specific details, such as room number and room type. Not only that it has premium guests and regular guests, The premium guests have loyalty points. The rooms are stored in room array collection class. There are recorders as well, the base class being abstract and 3 derived classes, which are inherited, and they implement the upgrade function.
+
+source files: main.cc Date.cc Guest.cc Room.cc Hotel.cc ResManager.cc RoomArray.cc Reservation.cc Recorder.cc StayRecorder.cc GuestRecorder.cc UpgradeRecorder.cc Control.cc View.cc
+
+header files: Date.h Guest.h Room.h Hotel.h ResManager.h RoomArray.h Reservation.h Recorder.h StayRecorder.h GuestRecorder.h UpgradeRecorder.h Control.h View.h
+
+compilation: make
+to remove .o files: make clean
+
+to execute: ./hotel
+
+after executing:
+	5 options to choose from: pick a nuumber 0 to 4
+	after executing the program you can pick your choice.
+
